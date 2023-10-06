@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: #E6E6E6;
+font-family: 'Judson', serif;  
+}
+
+.container{
+    /* margin: 5% 0; */
+width: 80%;
+margin:50px auto;
+   border-radius: 25px;
+   box-shadow: 2px 2px 50px black;
+   
+}
+
+header{
+    background-color: #EEECEC;
+    padding-bottom: 3%;
+
+}
+
+
+/* ? ------------Nav-bar-------------- */
+.category-bar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 95%;
+    border-bottom: 2px solid #D9D9D9;
+    margin-left: 6%;
+    /* height: 6rem; */
+    justify-content: space-between;
+    padding: 2% 6%;
+    
+}
+
+
+
+select{
+    /* height: 2rem; */
+    background-color: #D9D9D9;
+    border-radius: 3px;
+    border: 1px solid rgb(199, 196, 196);
+    font-size: 19px;
+    font-family: 'Bellota', cursive;
+    font-weight: bold;
+    padding: 0.3rem;
+    width: 10rem;
+    
+}
+
+input{
+    font-size: 12px;
+    padding: 0.5rem;
+    height: 2.5rem;
+    background-color: #D9D9D9;
+    border: none;
+    width: 250px;
+    border-radius: 5px;
+
+}
+
+.left-category{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem;
+    /* margin-top: 1%; */
+    padding: 1%;
+        
+}
+
+img.logo{
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px black;
+    width: 45px;
+    height:45px;
+    padding: 2px;
+}
+
+section.enter-text{
+    position: relative;
+    
+
+}
+
+img.magnifier{
+    position: absolute;
+    top: 0.1rem;
+    right: 0.6rem;
+}
+
+.support .p1{
+ font-weight: 700;
+ font-size: 19px;
+}
+
+.support .p2{
+font-size: 0.8rem;
+margin-left: 40%;
+
+  }
+  
+
+.icon img{
+    margin-right: 0.5rem;
+    /* margin-left: 1rem; */
+   
+    
+
+}
+/* nav-bar alt kısım */
+.select-bar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2% 0% 2% 10%;
+    height: 4rem;
+    gap: 2rem;
+    padding: 2%;
+    font-size: 1.2rem;
+}
+.select-p{
+ background-color: #D9D9D9;
+ border-radius: 5px;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 0.3rem;
+ padding: 10px;
+ border: 1px solid rgb(199, 196, 196);
+}
+
+
+.select-p img{
+
+    height: 1rem;
+    margin-right: 0.5rem;
+}
+
+ul{
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; */
+    
+ 
+   
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+   
+}
+
+.select-p{
+    display: flex;
+    flex-wrap: wrap;
+}
