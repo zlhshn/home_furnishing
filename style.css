@@ -281,6 +281,7 @@ section.browse img{
 
 .browse-product{
    background-color: #EEECEC;
+  
 }
 .browse-product h2{
      padding: 2rem;
@@ -316,4 +317,64 @@ section.browse img{
 .browse-product p{
     text-align: center;
    
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #AEA08D;
+    padding: 3rem;
+    font-family: 'Bellota', cursive;
+    font-weight: bold;
+    line-height: 2rem;
+    padding: 3rem;
+}
+
+.form input{
+    width: 400px;
+    background-color: #AEA08D;
+    border-bottom: 1px solid black;
+    border-radius: 0;
+   
+   
+}
+
+.form .right .par{
+    font-size: 2rem;
+   
+}
+
+.form .right .par span{
+    color: rgb(219, 140, 37);
+}
+.form button{
+    width: 100px;
+    border-radius: 5px;
+    padding: 0.5rem 0;
+    padding-left: 0;
+    margin-top: 1rem;
+}
+
+form{
+    font-weight: bold;
+    padding: 2rem;
+}
+
+.policy{
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.policy .div2{
+   
+    display: flex;
+    gap: 0.5rem;
+}
+
+.policy .div2 p{
+    border-bottom: 1px solid black;
 }
